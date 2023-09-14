@@ -11,8 +11,8 @@
 	<table>
 		<thead>
 			<tr>
-			<td>Roll Number</td>	
-			<td>Name</td>	
+			<th>Roll Number</th>	
+			<th>Name</th>	
 			</tr>
 		</thead>
 		<tbody>
@@ -33,13 +33,17 @@
 	<h1>List of medias</h1>
 	<ol>
 		<li>
-			<img src = "https://picsum.photos/id/123/200/300">
+			<img src = "https://picsum.photos/id/123/200/300" alt = "image">
 		</li>
 		<li>
-			<video src = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"></video>
+			<video>
+				<source src = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+			</video>
 		</li>
 		<li>
-			<audio controls source = "http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+			<audio controls>
+					<source src = "http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg." type = "audio/ogg">
+			</audio>
 		</li>
 	</ol>
     <script type="text/javascript" src="./script.js">
